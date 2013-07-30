@@ -45,14 +45,4 @@
 
 	<?php echo $content; ?>
 
-	<div class="clear"></div>
-
-	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by Xiao Inc.<br/>
-		All Rights Reserved.<br/>
-	</div><!-- footer -->
-
-</div><!-- page -->
-
-</body>
-</html>
+<?php include_once("footer.php")?>
